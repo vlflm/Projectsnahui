@@ -5,8 +5,8 @@
 } /*обнуление отступов и полей у всех элементов, чтобы не было разницы в отображении на разных браузерах*/
 body {
     font-family: Arial, sans-serif;
-    background-color: red;
-    color: white;
+    background-color: #1e3d59;
+    color: #ffffff;
     line-height: 1.6;
     padding: 20px;
 }
@@ -18,7 +18,7 @@ header {
 
 h1 {
     font-size: 2.5em;
-    color: #000000;
+    color:  #a9cfe7;
 
 }
 
@@ -28,11 +28,11 @@ section {
 
 h2 {
     margin-bottom: 10px;
-    color: #000000;
+    color: #a9cfe7;
 }
 
 a {
-    color: #ffffff;
+    color: #00bfff;
     margin-bottom: 10px;
     text-decoration: none;
 }
@@ -44,6 +44,9 @@ a:hover {
 footer {
     text-align: center;
     margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #00bfff;
+    background-color: #142f43;
     font-size: 0.9em;
     color: #666;
 }
